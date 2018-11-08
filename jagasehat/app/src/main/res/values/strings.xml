@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PERANTARA</string>
+    <string name="title_activity_pencegahan">ActivityPencegahan</string>
+    <string name="title_activity_youarenotalone">YouarenotaloneActivity</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="usia1">&lt; 17 tahun</string>
+    <string name="usia2">17–25 tahun</string>
+    <string name="usia3">25–40 tahun</string>
+    <string name="usia4">&gt; 40 tahun</string>
+
+    <string name="pendidikan1">Tidak bersekolah</string>
+    <string name="pendidikan2">SD/MI</string>
+    <string name="pendidikan3">SMP/MTs</string>
+    <string name="pendidikan4">SMA/SMK</string>
+    <string name="pendidikan5">Perguruan Tinggi</string>
+
+    <string name="pekerjaan1">Tidak bekerja</string>
+    <string name="pekerjaan2">PNS/TNI/Polri</string>
+    <string name="pekerjaan3">Swasta</string>
+    <string name="pekerjaan4">Wiraswasta</string>
+    <string name="pekerjaan5">Pelajar</string>
+    <string name="pekerjaan6">Lainnya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

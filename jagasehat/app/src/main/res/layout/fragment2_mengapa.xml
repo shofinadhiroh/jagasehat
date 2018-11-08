@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2Mengapa">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Fragment1Apaitu"
+            android:background="#F4D2D0"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/txtInfo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Mengapa bisa terjadi?"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#D0566D"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/txtInfo1"
+                    android:text="Faktor pemicu kanker ini belum dapat diketahui. Namun hal ini bisa ditelusuri dari sejarah keluarga yang mengidap kanker payudara, siklus menstruasi dini, atau kemungkinan faktor resiko lainnya. Karena begitu sulit untuk dipastikan, masing-masing kita memiliki resiko terkena kanker payudara, khususnya saat kita berusia 40 tahun atau lebih. Walaupun faktor penyebabnya masih tidak diketahui, akan tetapi penyembuhan total sangat dimungkinkan dengan pendeteksian dini melalui pemeriksaan payudara secara reguler." />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/txtInfo1"
+                    android:layout_marginTop="20dp"
+                    android:background="#D0566D"
+                    android:padding="8dp"
+                    android:text="Apa saya terkena kanker payudara?"
+                    android:textColor="#F7D4D2" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cancer" />
+
+
+        </LinearLayout>
+</FrameLayout>

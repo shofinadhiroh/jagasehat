@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1Apaitu">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment1Apaitu"
+        android:background="#F4D2D0"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txtInfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Kanker Payudara"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#D0566D"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtInfo1"
+            android:text="Kanker Payudara merupakan penyakit yang disebabkan oleh sel ganas (kanker) yang tumbuh pada jaringan payudara. Sel-sel ini biasanya muncul pada saluran atau lobula di payudara. Sel-sel kanker ini dapat menyebar di antara jaringan atau organ yang ada dan ke bagian tubuh lainnya." />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/txtInfo1"
+                android:layout_marginTop="20dp"
+                android:background="#D0566D"
+                android:padding="10dp"
+                android:text="Mengapa bisa terjadi"
+                android:textColor="#F7D4D2" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/teacher" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="usialist">
+        <item>@string/usia1</item>
+        <item>@string/usia2</item>
+        <item>@string/usia3</item>
+        <item>@string/usia4</item>
+    </string-array>
+    <string-array name="pendidikanlist">
+        <item>@string/pendidikan1</item>
+        <item>@string/pendidikan2</item>
+        <item>@string/pendidikan3</item>
+        <item>@string/pendidikan4</item>
+        <item>@string/pendidikan5</item>
+    </string-array>
+    <string-array name="pekerjaanlist">
+        <item>@string/pekerjaan1</item>
+        <item>@string/pekerjaan2</item>
+        <item>@string/pekerjaan3</item>
+        <item>@string/pekerjaan4</item>
+        <item>@string/pekerjaan5</item>
+        <item>@string/pekerjaan6</item>
+    </string-array>
+</resources>

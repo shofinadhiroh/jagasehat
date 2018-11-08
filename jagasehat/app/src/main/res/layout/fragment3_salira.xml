@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3Salira">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment2Mengapa"
+        android:background="#F4D2D0">
+
+        <ImageView
+            android:id="@+id/imageJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/salira" />
+
+        <Button
+            android:id="@+id/buttonsalira1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp"
+            android:background="#D0566D"
+            android:padding="10dp"
+            android:text="Cegah sejak dini"
+            android:textColor="#F7D4D2"/>
+
+        <Button
+            android:id="@+id/buttonsalira2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="#D0566D"
+            android:padding="10dp"
+            android:text="Konsultasi ke dokter"
+            android:textColor="#F7D4D2"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/sadari" />
+
+    </RelativeLayout>
+</FrameLayout>
